@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const basic = require('@growrk/eslint-config-basic')
+const basic = require('@growrk/eslint-config-basic');
 
 module.exports = {
   extends: [
@@ -50,4 +50,4 @@ module.exports = {
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-namespace': 'off',
   },
-}
+};
