@@ -1,14 +1,19 @@
 {
-  "name": "@growrk/eslint-config",
+  "name": "@growrk/eslint-config-monorepo",
   "version": "0.1.0",
-  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "license": "MIT",
   "repository": "https://github.com/growrk/eslint-config.git",
   "author": "(Daniel Galindo <daniel@growrk.com>)",
-  "files": [
-    "index.js"
-  ],
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
+  "scripts": {
+    "lint": "eslint --ext .js,.json,.vue --fix ."
+  },
+  "devDependencies": {
+    "@growrk/eslint-config": "*",
+    "eslint": "^8.7.0",
+    "typescript": "^4.5.5"
   }
 }

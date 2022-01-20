@@ -1,0 +1,26 @@
+{
+  "name": "@growrk/eslint-config-nuxt",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "(Daniel Galindo <daniel@growrk.com>)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@growrk/eslint-config-ts": "0.1.0",
+    "@nuxtjs/eslint-config-typescript": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  }
+}
