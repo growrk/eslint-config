@@ -209,6 +209,41 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@growrk/eslint-config-basic@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@growrk/eslint-config-basic/-/eslint-config-basic-0.1.0.tgz#715a8833f57ed0a0e37d78964c9572c0c014a5aa"
+  integrity sha512-GleZUniUtmAV69M9YoRqs94UDfrIVeH0SQP04qkFRDGb9IGS9/fP3JU0B7rtvtJf7tpYWtzA/dZpwVy/t9G45w==
+  dependencies:
+    eslint-config-standard "^16.0.3"
+    eslint-plugin-eslint-comments "^3.2.0"
+    eslint-plugin-html "^6.2.0"
+    eslint-plugin-import "^2.25.4"
+    eslint-plugin-jsonc "^2.0.0"
+    eslint-plugin-n "^14.0.0"
+    eslint-plugin-node "^11.1.0"
+    eslint-plugin-promise "^6.0.0"
+    eslint-plugin-unicorn "^40.1.0"
+    eslint-plugin-yml "^0.12.0"
+    jsonc-eslint-parser "^2.1.0"
+    yaml-eslint-parser "^0.5.0"
+
+"@growrk/eslint-config-nuxt@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@growrk/eslint-config-nuxt/-/eslint-config-nuxt-0.1.0.tgz#4ed24ae000b961eca625b2b2d0fb138495a55eaf"
+  integrity sha512-gcUJrpFY8iSziSfOZAu4x4K37ZiAG1p3RET1EB1bjxdOKrr9D39XBRvZTCWs2A1H3/uT2r/pLPoM7HedoJy9Dw==
+  dependencies:
+    "@growrk/eslint-config-ts" "0.1.0"
+    "@nuxtjs/eslint-config-typescript" "^8.0.0"
+
+"@growrk/eslint-config-ts@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@growrk/eslint-config-ts/-/eslint-config-ts-0.1.0.tgz#f9ab61c089c2929f83661ae34839aa8099a6ca6c"
+  integrity sha512-J1XjUT+12E4VVnbjfl+i1aejNbo/mk4z9F4FJFuv6eLNnFL0mcXgi5Hyh+mZyU1fo+nMgnkJtDOsx46WSrz+aw==
+  dependencies:
+    "@growrk/eslint-config-basic" "0.1.0"
+    "@typescript-eslint/eslint-plugin" "^5.10.0"
+    "@typescript-eslint/parser" "^5.10.0"
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.2"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.2.tgz#68be55c737023009dfc5fe245d51181bb6476914"
