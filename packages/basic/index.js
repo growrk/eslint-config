@@ -138,6 +138,7 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     'no-return-await': 'off',
     'space-before-function-paren': ['error', 'never'],
+    'no-async-promise-executor': 'off',
 
     // es6
     'no-var': 'error',
