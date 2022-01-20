@@ -1,6 +1,6 @@
 {
   "name": "@growrk/eslint-config-ts",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "MIT",
   "author": "(Daniel Galindo <daniel@growrk.com>)",
   "files": [
@@ -17,7 +17,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@growrk/eslint-config-basic": "^0.3.0",
+    "@growrk/eslint-config-basic": "^0.4.0",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0"
   },
