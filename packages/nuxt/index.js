@@ -1,13 +1,16 @@
 module.exports = {
+  plugins: ['prettier'],
   extends: [
-    '@nuxtjs/eslint-config-typescript',
-    '@growrk/eslint-config-ts',
+    '@nuxtjs/eslint-config-typescript'
   ],
   rules: {
-    'vue/max-attributes-per-line': 'off',
-    'vue/no-v-html': 'off',
-    'vue/require-prop-types': 'off',
-    'vue/require-default-prop': 'off',
-    'vue/multi-word-component-names': 'off',
-  },
-};
+    semi: ['error', 'always'],
+    'no-console': ['error', { allow: ['log', 'error'] }],
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      { vars: 'all', args: 'after-used', argsIgnorePattern: 'reject|context' }
+    ],
+    // TypeScript compilation already ensures that named imports exist in the referenced module
+    'import/named': 'off'
+  }
+}

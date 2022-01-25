@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    '@growrk/eslint-config-nuxt',
+    '@growrk/eslint-config-ts',
   ],
 };
